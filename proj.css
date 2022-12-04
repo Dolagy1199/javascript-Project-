@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim', cursive;
+}
+
+.background {
+    background-color: #6a9bee;
+    background-image: url("");
+    background-size: cover;
+    height: 100vh;
+    padding-top: 1px;
+}
+
+.title {
+    color: rgb(92, 87, 87);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 1%;
+}
+
+.display {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+
+}
+
+.tile {
+    border: 3px solid wheat;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.playerX {
+    color: #03512f;
+}
+
+.playerO {
+    color: #2153ab;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.controls button {
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.restart {
+    background-color: #498AFB;
+}
+
+#reset {
+    background-color: #FF3860;
+}
+#backtoplaygame {
+    background-color: #FF3860;
+}
+
+#kiteimg{
+    margin-bottom: 150px;
+}
+
+#baby{
+    float: left;
+    width: 150px;
+}
+
+
+
+
+#img{
+    position: relative;
+    width:60px;
+    height:60px;
+    animation-name: anim1;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+  }
+
+ 
+  #piece1{
+    position: relative;
+    width:60px;
+    height: 60px;
+    animation-name: anim2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+ 
+  @keyframes anim2{
+    0% {left:450px;top:2px ; right:50px;transform: rotate(20deg);}
+    25%{left:75px;top:190px;transform: rotate(360deg);}
+    50%{left:455px;top:120px ;transform: rotate(180deg);}
+    75%{left:105px;top:20px ;transform: rotate(45deg);}
+    100%{left:290px;top:20px ;transform: rotate(360deg);}
+  }
+
+  #piece2{
+    position: relative;
+    width:60px;
+    height: 60px;
+    animation-name: anim2;
+    margin-left: 30px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+ 
+  @keyframes anim2{
+    0% {left:450px;top:2px ; right:50px;transform: rotate(20deg);}
+    25%{left:75px;top:190px;transform: rotate(360deg);}
+    50%{left:455px;top:120px ;transform: rotate(180deg);}
+    75%{left:75px;top:190px;transform: rotate(360deg);}
+    100%{left:450px;top:2px ; right:50px;transform: rotate(20deg);}
+  }
+ 
+
+  #piece3{
+    position: relative;
+    width:60px;
+    height: 60px;
+    animation-name: anim2;
+    margin-left: 850px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes anim2{
+    0% {left:450px;top:2px ; right:50px;transform: rotate(20deg);}
+    25%{left:75px;top:190px;transform: rotate(360deg);}
+    50%{left:455px;top:120px ;transform: rotate(180deg);}
+    75%{left:105px;top:20px ;transform: rotate(45deg);}
+    100%{left:290px;top:20px ;transform: rotate(360deg);}
+  }
+
+  #piece4{
+    position: relative;
+    width:60px;
+    height: 60px;
+    animation-name: anim2;
+    margin-left: 850px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes anim2{
+    0% {left:450px;top:2px ; right:50px;transform: rotate(20deg);}
+    25%{left:75px;top:190px;transform: rotate(360deg);}
+    50%{left:455px;top:120px ;transform: rotate(180deg);}
+    75%{left:105px;top:20px ;transform: rotate(45deg);}
+    100%{left:290px;top:20px ;transform: rotate(360deg);}
+  }
+
+  
