@@ -1,0 +1,51 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(images/1503032_5923.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+#num-of-lett {
+  width: 450px;
+  height: 55px;
+  border-style: none;
+  border-radius: 15px;
+  background-color: wheat;
+  padding-left: 20px;
+}
+
+#gn-button {
+  border-radius: 40em;
+  border-style: none;
+  box-shadow:  #fec913 0 59px 87px inset;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -.24px;
+  margin: 0;
+  padding: 1rem 1.3rem;
+  transition: all .15s;
+  touch-action: manipulation;
+
+}
+
+#gn-button:hover {
+  background-color: rgb(255 192 2);
+  box-shadow: #FF6314 0 -6px 8px inset;
+  margin-left: .5rem;
+  transform: scale(1.125);
+}
+
+#gn-button:active {
+  transform: scale(1.025);
+}
+#lett-butt{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
