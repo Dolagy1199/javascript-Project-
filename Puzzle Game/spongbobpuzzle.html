@@ -1,0 +1,36 @@
+<html>
+    <head>
+<link rel="stylesheet" href="spongbobcss.css">
+<link rel="shortcut icon" href="puzzle-background.png">   
+<title>Puzzle Game</title>
+    </head>
+    <body onload="soundspong()">
+      <div id="countdown"></div>
+        <div id='puzzle_box'>
+            <div id='puzzle-in'>
+              <i class='first' ondrop='drop(event)' ondragover='allowDrop(event)'></i>
+              <i class='second' ondrop='drop(event)' ondragover='allowDrop(event)'></i>
+              <i class='third' ondrop='drop(event)' ondragover='allowDrop(event)'></i>
+              <i class='fourth' ondrop='drop(event)' ondragover='allowDrop(event)'></i>
+              <i class='fifth' ondrop='drop(event)' ondragover='allowDrop(event)'></i>
+              <i class='sixth' ondrop='drop(event)' ondragover='allowDrop(event)'></i>
+              <i class='seven' ondrop='drop(event)' ondragover='allowDrop(event)'></i>
+              <i class='eight' ondrop='drop(event)' ondragover='allowDrop(event)'></i>
+              <i class='ninth' ondrop='drop(event)' ondragover='allowDrop(event)'></i>
+            </div>
+            <div id='puzzle-out'>
+              <i class='first' draggable='true' ondragstart='drag(event)'></i>
+              <i class='second' draggable='true' ondragstart='drag(event)'></i>
+              <i class='third' draggable='true' ondragstart='drag(event)'></i>
+              <i class='fourth' draggable='true' ondragstart='drag(event)'></i>
+              <i class='fifth' draggable='true' ondragstart='drag(event)'></i>
+              <i class='sixth' draggable='true' ondragstart='drag(event)'></i>
+              <i class='seven' draggable='true' ondragstart='drag(event)'></i>
+              <i class='eight' draggable='true' ondragstart='drag(event)'></i>
+              <i class='ninth' draggable='true' ondragstart='drag(event)'></i>  
+            </div>
+          </div>
+          <div id='clicks'>0</div>
+          <script src="spongbobpuzzle.js"></script>
+   </body>
+</html>
