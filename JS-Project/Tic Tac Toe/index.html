@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="proj.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <script src="./index.js"></script>
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <audio>
+        <source src="taratata-6264.mp3" type="audio/mp3">
+    </audio>
+    <main class="background">
+        <section class="title">
+            <h1>Tic Tac Toe</h1>
+        </section>
+        <section class="display">
+            Player <span class="display-player playerX">X</span>'s turn
+        </section>
+        <img  id="piece1"src="o.png" alt="" width="400px" height="150px">
+        <img  id="piece2"src="ximage.jpg" alt="" width="400px" height="150px">
+        <img  id="piece3"src="o.png" alt="" width="400px" height="150px">
+        <img  id="piece4"src="ximage.jpg" alt="" width="400px" height="150px">
+
+
+        <!-- <img  id="piece4"src="ximage.jpg" alt="" width="400px" height="150px">
+        <img  id="piece4"src="o.png" alt="" width="400px" height="150px">
+        <img  id="piece4"src="ximage.jpg" alt="" width="400px" height="150px"> -->
+
+
+
+        <section class="container">
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+         
+        </section>
+    
+
+        <section class="display announcer hide"></section>
+        <section class="controls">
+            <button id="reset">Reset</button>
+            <button id="backtoplaygame" onclick="window.open('playgame.html')">Back</button>
+            <div class="babyanim"></div>
+
+        </section>
+        <audio autoplay>
+            <source src="taratata-6264.mp3" type="audio/mpeg"  >
+        </audio>
+
+      
+    </main>
+    <script src="pro.js"></script>
+</body>
+</html>

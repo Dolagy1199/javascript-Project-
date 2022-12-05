@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Matching</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body onload="PlayAudion()">
+
+    <div class="container-fluid">
+        <!-- Background animtion-->
+            <div class="background">
+                <h2>Errors :<span id="errors" style="padding-right:15px ;"> 0</span> Score : <span id="score"> 0</h2>
+                
+                <div id="board">
+                </div>            
+            </div>
+
+  
+            <audio  id="myaudio"  autoplay>
+                <source src="audio3.mp3" type="audio/mpeg">
+                <source src="audio3.wav" type="audio/wav">
+            </audio>
+            
+
+    <script src="index.js"></script>
+</body>
+
+</html>

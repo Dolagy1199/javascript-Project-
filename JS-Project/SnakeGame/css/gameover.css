@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.App {
+  text-align: center;
+  height: 100%;
+}
+body {
+  overflow: hidden;
+  background: url("../img/bg.jpg"); 
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+.lost {
+  letter-spacing: 2px;
+  color: white;
+  margin: 20px auto;
+  width: 100%;
+  font-size: 100px;
+  font-family: "Permanent Marker";
+  animation: bloody 4s ease infinite alternate;
+  -webkit-animation: bloody 4s ease infinite alternate;
+  -moz-animation: bloody 4s ease infinite alternate;
+  -o-animation: bloody 4s ease infinite alternate;
+  color: white;
+  padding-top: 100px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin: auto;
+}
+
+.note {
+  color: #12610c;
+  font-size: 80px;
+  margin: 0 auto;
+  font-family: "Permanent Marker";
+  animation: grow 5s ease infinite alternate;
+  -webkit-animation: grow 5s ease infinite alternate;
+  -moz-animation: grow 5s ease infinite alternate;
+  -o-animation: grow 5s ease infinite alternate;
+}
+
+.container {
+  position: relative;
+  margin: 25px auto;
+  height: 400px;
+  width: 350px;
+}
+
+
+.wrapper{
+    position: fixed;
+    top: 79%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .link_wrapper{
+    position: relative;
+  }
+  
+  a{
+    display: block;
+    width: 301px;
+    height: 64px;
+    line-height: 60px;
+    font-size: 28px;
+    text-decoration: none;
+    background-color: #d3f3d8;
+    text-align: center;
+    color: #12610c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 4px double #cccccc;
+     border-radius: 21px;
+    transition: all .35s;
+  }
+  
+  .icon{
+    width: 50px;
+    height: 50px;
+    border: 3px solid transparent;
+    position: absolute;
+    transform: rotate(45deg);
+    right: 100px;
+    top: 0;
+    z-index: -1;
+    transition: all .35s;
+  }
+  
+  .icon svg{
+    width: 30px;
+    position: absolute;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    transform: rotate(-45deg);
+    fill: #2ecc71;
+    transition: all .35s;
+
+  }
+  a:hover{
+    width: 330px;
+    border: 3px solid #2ecc71; 
+   background: transparent;
+  }
+  
+  a:hover + .icon{
+    border: 3px solid #2ecc71;
+    right: -10%;
+  }
