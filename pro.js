@@ -124,22 +124,3 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 
-
-// sound for game
-
-// const StartSound = new Audio('/Downloads/taratata-6264.mp3');
-
-// function sound() {
-//     StartSound.play();
-// }
-// StartSound.addEventListener('ended', function () {
-//     this.currentTime = 0;
-//     this.play();
-// }, false);
-
-// function PlayAudion()
-// {
-   
-//     document.getElementById("myaudio").play();
-  
-// }
